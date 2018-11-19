@@ -11,6 +11,17 @@ gem 'rails-i18n'
 gem 'devise'
 # Internationalization for devise
 gem 'devise-i18n'
+# dbb-admin
+gem 'bootstrap_sb_admin_base_v2'
+# bootstrap
+gem 'rails-assets-bootstrap', '3.3.7', source: 'https://rails-assets.org'
+
+
+
+
+
+
+
 
 
 # Use sqlite3 as the database for Active Record
