@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Escamboapp</title>
+    <title>Backoffice</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -13,7 +13,12 @@
   </head>
 
   <body>
-    <h1>Backoffice</h1>
-    <%= yield %>
-  </body>
+
+    <div id="wrapper">
+      <%= render partial: "layouts/backoffice_shared/navigation" %>
+      <%= yield %>
+    </div>
+
+</body>
+
 </html>

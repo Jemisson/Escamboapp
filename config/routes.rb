@@ -3,11 +3,11 @@ Rails.application.routes.draw do
   root 'site/home#index'
 
   namespace :site do
-    get 'home/index'
+    get 'home', to: 'home#index'
   end
 
   namespace :backoffice do
-    get 'dashboard/index'
+    get 'dashboard', to: 'dashboard#index'
   end
 
   devise_for :admins
